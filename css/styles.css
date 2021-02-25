@@ -1,0 +1,116 @@
+body {
+  background-color: #1B191C;
+  color: #c8c8c8;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+  line-height: 1.45em;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 50pt;
+  color: #b6ab4f;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 26pt;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  width: 85%;
+  color: #656866;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: #656866;
+}
+
+cite {
+  font-size: 1.5em;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.imgdiv {
+  margin-top: 40px;
+  width: 50%;
+}
+
+img {
+  border: 1px solid #000;
+}
+
+@media only screen and (max-width: 1024px) { 
+
+h1{
+  font-family:FUTURA;
+  font-size:65px;
+  color:red;
+}
+h2{
+  font-size:35px;
+  color:red;
+}
+
+p{
+  font-size:30px;
+  color:red;
+}
+
+}
+
+@media only screen and (max-width: 768px){ 
+
+h1{
+  font-family:AvenirNext;
+  font-size:50px;
+  color:yellow;
+}
+h2{
+  font-size:20px;
+  color:yellow;
+}
+
+p{
+  font-size:25px;
+  color:yellow;
+}
+  
+}
+
+@media screen and (max-width: 480px){
+
+h1{
+  font-family:GillSans;
+  font-size:50px;
+  color:white;
+}
+h2{
+  font-size:20px;
+  color:white;
+}
+
+p{
+  font-size:20px;
+  color:white;
+}
+
+}
+
+
